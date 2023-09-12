@@ -14,6 +14,7 @@ const AddUser = (props) => {
   /*   const [enteredAge, setEnteredAge] = useState('');*/
 
   const [error, setError] = useState();
+  //console.log("test")
 
   const addUserHandler = (event) => {
     event.preventDefault();
